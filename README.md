@@ -21,7 +21,7 @@ Say what the step will be
 
 ```
 pip install -r requirements.txt
-
+```
 ## Train
 
 Data format for stylegan2
@@ -39,7 +39,7 @@ python3 make_labels.py --input_folder={stylegan2 format dataset path} --output={
 running Training script
 ```
 CUDA_VISIBLE_DEVICES={gpu_id} train.py --outdir './' --data '{dataset_path}' --batch={batch_size} --cond=True
-
+```
 
 ## Built With
 
