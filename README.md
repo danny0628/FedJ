@@ -1,15 +1,16 @@
 # FedCAR: Cross-client Adaptive Re-weighting for Generative Models in Federated Learning
 
-
+##Updating..
 ## Getting Started
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
 ```
-conda create -n flgan python==3.8
-conda activate flgan
-conda install -y pytorch==1.7.1 torchvision torchaudio cudatoolkit=11.0 -c pytorch -c conda-forge
+conda create -n fedcar python==3.8
+conda activate fedcar
+conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
+or Get inspired by your GPU experience : https://pytorch.org/get-started/previous-versions
 ```
 
 ### Installing
@@ -44,3 +45,5 @@ CUDA_VISIBLE_DEVICES={gpu_id} train.py --outdir './' --data '{dataset_path}' --b
 
 * [Flower](https://github.com/adap/flower) - Federated Learning
 * [StyleGAN2-ADA](https://github.com/NVlabs/stylegan2-ada-pytorch) - GAN
+
+
